@@ -1775,12 +1775,19 @@ figure.dotted-bg {
     width: 100%;
     display: block;
     position: relative;
-    transition: transform .45s ease;cursor: pointer;
+    transition: transform .45s ease;cursor: pointer; 
 }
 
+ section#readmore img {
+   
+    position: relative;
+    transition: transform .45s ease;cursor: pointer; 
+}
+section#readmore img:hover {
+    transform: scale(1.08) rotate(-1deg);
+}
 
-
-.masonry-item:hover img {
+.masonry-item:hover img{
     transform: scale(1.08) rotate(-1deg);
 }
 
